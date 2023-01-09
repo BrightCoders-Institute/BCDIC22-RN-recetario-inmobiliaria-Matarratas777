@@ -1,7 +1,9 @@
-import {View, Text} from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 import React from 'react';
-import MainPage from './src/components/cartas/index';
+import HomePage from './src/views/mainpage/';
 
 export const App = () => {
-  return <MainPage />;
+  return (
+    <HomePage/>
+  )
 };

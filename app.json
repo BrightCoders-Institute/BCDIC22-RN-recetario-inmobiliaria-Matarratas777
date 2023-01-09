@@ -1,15 +1,5 @@
-{
-  "name": "inmobiliaria",
-  "displayName": "inmobiliaria",
-  "departamentos": [
-    {
-      "id": 1,
-      "nombre": "Villa Bonita, El Real",
-      "direccion": "Nuevo Caxitlán, Tecomán",
-      "cupo": "2",
-      "baños": "1",
-      "espacio": "300",
-      "precio": "$350"
-    }
-  ]
-}
+ {
+    "name": "inmobiliaria",
+     "displayName": "inmobiliaria"
+  }
+

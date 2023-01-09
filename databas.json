@@ -1,0 +1,52 @@
+[   
+    {
+        "id": 1,
+        "nombre": "Villa Bonita, El Real",
+        "imagen": "https://eurekamedios.com/wp-content/uploads/2020/06/Fachada_xl.jpg",
+        "direccion": "Nuevo Caxitlán, Tecomán",
+        "cupo": "2",
+        "baños": "1",
+        "espacio": "300",
+        "precio": "$350"
+    },
+    {
+        "id": 1,
+         "nombre": "Villa Bonita, El Real",
+         "imagen": "",
+         "direccion": "Nuevo Caxitlán, Tecomán",
+         "cupo": "2",
+         "baños": "1",
+         "espacio": "300",
+         "precio": "$350"
+   },
+   {
+        "id": 1,
+        "nombre": "Villa Bonita, El Real",
+        "imagen": "",
+        "direccion": "Nuevo Caxitlán, Tecomán",
+        "cupo": "2",
+        "baños": "1",
+        "espacio": "300",
+        "precio": "$350"
+    },
+    {
+        "id": 1,
+        "nombre": "Villa Bonita, El Real",
+        "imagen": "",
+        "direccion": "Nuevo Caxitlán, Tecomán",
+        "cupo": "2",
+        "baños": "1",
+        "espacio": "300",
+        "precio": "$350"
+    },
+    {
+        "id": 1,
+        "nombre": "Villa Bonita, El Real",
+        "imagen": "",
+        "direccion": "Nuevo Caxitlán, Tecomán",
+        "cupo": "2",
+        "baños": "1",
+        "espacio": "300",
+        "precio": "$350"
+    }
+]
