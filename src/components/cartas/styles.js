@@ -1,28 +1,124 @@
-import {ScrollView, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
-  fondo2: {
-    backgroundColor: 'green',
-    width: '94%',
-    height: '20%',
-    borderRadius: 15,
-    margin: '3%',
+  textoNombre: {
+    color: 'black',
+    fontFamily: 'arial',
+    fontSize: 20,
+    fontWeight: 'bold',
   },
-  fondo3: {
-    backgroundColor: 'grey',
-    width: '40%',
-    height: '85%',
-    margin: '3%',
+  textoUbicacion: {
+    fontFamily: 'arial',
+    fontSize: 15,
+  },
+  textoPrecio: {
+    color: 'red',
+    fontFamily: 'arial',
+    fontSize: 25,
+    fontWeight: 'bold',
+  },
+  fondo: {
+    backgroundColor: '#E0E0DE',
+    width: '95%',
+    height: 200,
     borderRadius: 15,
-    flexDirection: 'row-reverse',
+    margin: 11,
+  },
+  row: {
+    flex: 1,
+    flexDirection: 'row',
+  },
+  caja: {
+    flex: 1,
+    height: 180,
+    backgroundColor: '#E0E0DE',
+    margin: 5,
+    borderRadius: 10,
+  },
+  tarjeta: {
+    backgroundColor: '#E0E0DE',
+    width: 40,
+    height: 180,
+    margin: 5,
+    borderRadius: 10,
+  },
+  two: {
+    flex: 1.5,
+  },
+  imagen: {
+    width: 160,
+    height: 180,
+    borderRadius: 10,
+  },
+  estrella: {
+    backgroundColor: '#E0E0DE',
+    width: 60,
+    height: 25,
+    borderRadius: 10,
     alignItems: 'flex-end',
     justifyContent: 'center',
+    alignSelf: 'center',
+    display: 'flex',
+    flexDirection: 'row',
+    position: 'absolute',
+    marginTop: 130,
   },
-  fondo4: {
-    backgroundColor: 'blue',
-    width: '35%',
-    height: '25%',
+  nombre: {
+    backgroundColor: '#E0E0DE',
+    width: 235,
+    height: 85,
+    justifyContent: 'center',
     borderRadius: 10,
-    margin: '2%',
+  },
+  ubicacion: {
+    backgroundColor: '#E0E0DE',
+    width: 230,
+    height: 35,
+    alignItems: 'center',
+    flexDirection: 'row',
+    margin: 1,
+    flex: 1,
+  },
+  box: {
+    flex: 1,
+    height: 30,
+    backgroundColor: '#E0E0DE',
+    borderRadius: 10,
+    alignItems: 'flex-end',
+    flexDirection: 'row',
+  },
+  box2: {
+    backgroundColor: '#E0E0DE',
+    alignItems: 'flex-end',
+    flexDirection: 'row',
+    borderRadius: 8,
+  },
+  box3: {
+    backgroundColor: '#E0E0DE',
+    alignItems: 'flex-end',
+    flexDirection: 'row',
+  },
+  boxCora: {
+    flex: 0.5,
+    height: 40,
+    backgroundColor: '#E0E0DE',
+    borderRadius: 10,
+    alignItems: 'flex-end',
+    flexDirection: 'row-reverse',
+    margin: 2,
+  },
+  icons: {
+    width: 30,
+    height: 30,
+    margin: 5,
+  },
+  iconCora: {
+    width: 40,
+    height: 40,
+    margin: 5,
+  },
+  iconUbicacion: {
+    width: 15,
+    height: 20,
   },
 });

@@ -1,52 +1,53 @@
-[   
-    {
-        "id": 1,
-        "nombre": "Villa Bonita, El Real",
-        "imagen": "https://eurekamedios.com/wp-content/uploads/2020/06/Fachada_xl.jpg",
-        "direccion": "Nuevo Caxitlán, Tecomán",
-        "cupo": "2",
-        "baños": "1",
-        "espacio": "300",
-        "precio": "$350"
-    },
-    {
-        "id": 1,
-         "nombre": "Villa Bonita, El Real",
-         "imagen": "",
-         "direccion": "Nuevo Caxitlán, Tecomán",
-         "cupo": "2",
-         "baños": "1",
-         "espacio": "300",
-         "precio": "$350"
-   },
-   {
-        "id": 1,
-        "nombre": "Villa Bonita, El Real",
-        "imagen": "",
-        "direccion": "Nuevo Caxitlán, Tecomán",
-        "cupo": "2",
-        "baños": "1",
-        "espacio": "300",
-        "precio": "$350"
-    },
-    {
-        "id": 1,
-        "nombre": "Villa Bonita, El Real",
-        "imagen": "",
-        "direccion": "Nuevo Caxitlán, Tecomán",
-        "cupo": "2",
-        "baños": "1",
-        "espacio": "300",
-        "precio": "$350"
-    },
-    {
-        "id": 1,
-        "nombre": "Villa Bonita, El Real",
-        "imagen": "",
-        "direccion": "Nuevo Caxitlán, Tecomán",
-        "cupo": "2",
-        "baños": "1",
-        "espacio": "300",
-        "precio": "$350"
-    }
+[
+  {
+    "id": 1,
+    "nombre": "Villa Bonita, El Real",
+    "imagen": "https://eurekamedios.com/wp-content/uploads/2020/06/Fachada_xl.jpg",
+    "direccion": "Nuevo Caxitlán, Tecomán",
+    "cupo": "2",
+    "baños": "1",
+    "espacio": "300",
+    "precio": "$3500/M",
+    "puntuacion": "4.5"
+  },
+  {
+    "id": 2,
+    "nombre": "Hotel Real M",
+    "imagen": "https://media-cdn.tripadvisor.com/media/photo-s/25/fb/8c/46/hotel-exterior.jpg",
+    "direccion": "Nuevo Caxitlán, Tecomán",
+    "cupo": "2",
+    "baños": "1",
+    "espacio": "300",
+    "precio": "$4000/M"
+  },
+  {
+    "id": 3,
+    "nombre": "Villas del Sol",
+    "imagen": "https://cdn.milenio.com/uploads/media/2020/06/01/aspecto-motel-sur-ciudad-permanecido_0_0_958_596.jpg",
+    "direccion": "Nuevo Caxitlán, Tecomán",
+    "cupo": "2",
+    "baños": "1",
+    "espacio": "300",
+    "precio": "$150/M"
+  },
+  {
+    "id": 4,
+    "nombre": "Hotel Poseidon",
+    "imagen": "https://media-cdn.tripadvisor.com/media/photo-s/05/b1/af/76/espace-piscine.jpg",
+    "direccion": "Nuevo Caxitlán, Tecomán",
+    "cupo": "2",
+    "baños": "1",
+    "espacio": "300",
+    "precio": "$200/M"
+  },
+  {
+    "id": 5,
+    "nombre": "Bugambilias",
+    "imagen": "http://granhoteltecoman.com.mx/v2/wp-content/uploads/2019/09/fachada.jpg",
+    "direccion": "Nuevo Caxitlán, Tecomán",
+    "cupo": "2",
+    "baños": "1",
+    "espacio": "300",
+    "precio": "$300/M"
+  }
 ]
