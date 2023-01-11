@@ -8,12 +8,18 @@ export default Carta = ({item}) => {
       <View>
         <View style={styles.row}>
           <View style={[styles.caja, styles.tarjeta]}>
-            <View style={styles.estrella}>
-              <Text>hola</Text>
-            </View>
             <Image style={styles.imagen} source={{uri: item.imagen}} />
+            <View style={styles.estrella}>
+              <Image
+                style={styles.iconEstrella}
+                source={{
+                  uri: 'https://cdn-icons-png.flaticon.com/512/1828/1828884.png',
+                }}
+              />
+              <Text style={styles.textoCalificacion}>{item.puntuacion}</Text>
+            </View>
           </View>
-
+          {/*  */}
           <View style={[styles.caja, styles.two]}>
             <View style={styles.nombre}>
               <Text style={styles.textoNombre}>{item.nombre}</Text>
@@ -35,7 +41,7 @@ export default Carta = ({item}) => {
                     uri: 'https://cdn-icons-png.flaticon.com/512/3030/3030336.png',
                   }}
                 />
-                <Text>{item.cupo}</Text>
+                <Text style={styles.textoValores}>{item.cupo}</Text>
               </View>
 
               <View style={[styles.box]}>
@@ -45,7 +51,7 @@ export default Carta = ({item}) => {
                     uri: 'https://cdn-icons-png.flaticon.com/512/5787/5787792.png',
                   }}
                 />
-                <Text>{item.baños}</Text>
+                <Text style={styles.textoValores}>{item.baños}</Text>
               </View>
               <View style={[styles.box, styles.box3]}>
                 <Image
@@ -54,7 +60,7 @@ export default Carta = ({item}) => {
                     uri: 'https://cdn-icons-png.flaticon.com/512/5442/5442154.png',
                   }}
                 />
-                <Text>{item.espacio}</Text>
+                <Text style={styles.textoValores}>{item.espacio}</Text>
               </View>
             </View>
 

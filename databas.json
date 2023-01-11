@@ -8,7 +8,7 @@
     "baños": "1",
     "espacio": "300",
     "precio": "$3500/M",
-    "puntuacion": "4.5"
+    "puntuacion": " 4.5"
   },
   {
     "id": 2,
@@ -18,7 +18,8 @@
     "cupo": "2",
     "baños": "1",
     "espacio": "300",
-    "precio": "$4000/M"
+    "precio": "$4000/M",
+    "puntuacion": " 4.5"
   },
   {
     "id": 3,
@@ -28,17 +29,19 @@
     "cupo": "2",
     "baños": "1",
     "espacio": "300",
-    "precio": "$150/M"
+    "precio": "$150/M",
+    "puntuacion": " 4.5"
   },
   {
     "id": 4,
     "nombre": "Hotel Poseidon",
     "imagen": "https://media-cdn.tripadvisor.com/media/photo-s/05/b1/af/76/espace-piscine.jpg",
     "direccion": "Nuevo Caxitlán, Tecomán",
-    "cupo": "2",
-    "baños": "1",
-    "espacio": "300",
-    "precio": "$200/M"
+    "cupo": " 2",
+    "baños": " 1",
+    "espacio": " 300",
+    "precio": "$200/M",
+    "puntuacion": " 4.5"
   },
   {
     "id": 5,
@@ -48,6 +51,7 @@
     "cupo": "2",
     "baños": "1",
     "espacio": "300",
-    "precio": "$300/M"
+    "precio": "$300/M",
+    "puntuacion": " 4.5"
   }
 ]

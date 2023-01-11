@@ -4,18 +4,34 @@ export default StyleSheet.create({
   textoNombre: {
     color: 'black',
     fontFamily: 'arial',
-    fontSize: 20,
+    fontSize: 25,
     fontWeight: 'bold',
   },
   textoUbicacion: {
     fontFamily: 'arial',
-    fontSize: 15,
+    fontSize: 18,
+    marginLeft: 7,
   },
   textoPrecio: {
-    color: 'red',
+    color: 'black',
     fontFamily: 'arial',
     fontSize: 25,
     fontWeight: 'bold',
+  },
+  textoCalificacion: {
+    color: '#B59659',
+    fontFamily: 'arial',
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  textoValores: {
+    fontFamily: 'arial',
+    fontSize: 17,
+    width: 30,
+    height: 30,
+    marginLeft: 5,
+    fontWeight: 'bold',
+    color: 'black',
   },
   fondo: {
     backgroundColor: '#E0E0DE',
@@ -55,13 +71,13 @@ export default StyleSheet.create({
     width: 60,
     height: 25,
     borderRadius: 10,
-    alignItems: 'flex-end',
     justifyContent: 'center',
     alignSelf: 'center',
     display: 'flex',
     flexDirection: 'row',
     position: 'absolute',
     marginTop: 130,
+    alignItems: 'center',
   },
   nombre: {
     backgroundColor: '#E0E0DE',
@@ -108,8 +124,8 @@ export default StyleSheet.create({
     margin: 2,
   },
   icons: {
-    width: 30,
-    height: 30,
+    width: 27,
+    height: 27,
     margin: 5,
   },
   iconCora: {
@@ -118,6 +134,10 @@ export default StyleSheet.create({
     margin: 5,
   },
   iconUbicacion: {
+    width: 20,
+    height: 25,
+  },
+  iconEstrella: {
     width: 15,
     height: 20,
   },
